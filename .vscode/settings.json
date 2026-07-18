@@ -1,0 +1,35 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Credit Card Fraud DB",
+            "database": "credit_card_fraud_db",
+            "username": "postgres"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "username": "postgre",
+            "database": "credit_card_fraud_db",
+            "name": "Credit Card Fraud Detection"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Credit Card DB",
+            "database": "credit_card_fraud_db",
+            "username": "postgres"
+        }
+    ]
+}
